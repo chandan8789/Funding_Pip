@@ -1,0 +1,60 @@
+.yourskills > h1 {
+  font-size: 90px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.yourskills > span {
+  font-size: 90px;
+  font-weight: bold;
+  color: #1c64f2;
+  line-height: 60px;
+}
+.yourskills {
+  margin-top: 10rem;
+}
+.yourskills > p {
+  margin-top: 2rem;
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+@media (max-width: 650px) {
+  .yourskills > h1 {
+    font-size: 40px;
+    margin-top: -12rem;
+  }
+  .yourskills > span {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 650px) {
+  .dashboard > img {
+    width: 330px !important;
+    margin-top: 1rem;
+  }
+}
+
+.buy-challenge > a {
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px 15px 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.buy-buttons > button {
+  width: 10.5rem;
+  height: 3.3rem;
+  border-radius: 10px;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.challenging {
+  background-color: #1a56db;
+}
+.discord {
+  background-color: #374151;
+}

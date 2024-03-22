@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.depth-trading {
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(83, 7, 236, 1) 0%,
+    rgba(25, 79, 238, 1) 0%,
+    rgba(0, 82, 255, 1) 83%
+  );
+  color: white; */
+  color: white;
+  background-color: #2e3bef;
+}
+
+.trading-rules {
+  margin-top: 2rem;
+}
+.trading-rules > button {
+  border-radius: 10px;
+  width: 15rem;
+  height: 3.5rem;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+
+.tradingimage > img {
+  width: 750px;
+  margin-top: 2rem;
+}
+@media (max-width: 550px) {
+  .tradingimage > img {
+    width: 320px;
+  }
+}
+
+.joinateam {
+  background-color: #2e3bef;
+  color: white;
+}
+.buttonsTeam > button {
+  width: 11rem;
+  height: 3.5rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}

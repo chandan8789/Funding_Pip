@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 4.5rem;
+  background-color: #f3f4f6;
+}
+
+.footer > p {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.footer > img {
+  border: 1px solid;
+  border-radius: 50%;
+}
+.footer > span > i {
+  font-size: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: #2e3bef;
+  padding: 10px 15px 10px 15px;
+}
+.arrowdash > input {
+  width: 14rem;
+}
+.arrowdash > i {
+  background-color: #2e3bef;
+  color: white;
+  margin-left: -3rem;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+}
+.card {
+  border-radius: 20px;
+}
+
+.newwork {
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: #2e3bef;
+}
+.bi-facebook {
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: #2e3bef;
+}
+.bi-instagram {
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: lightcoral;
+}
+.bi-youtube {
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: red;
+}
+.bi-twitter {
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: blue;
+}

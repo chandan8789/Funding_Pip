@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.elvation-stage {
+  font-size: 15px;
+  font-weight: 700;
+}
+.rates > h1 {
+  font-size: 45px;
+}
+.rates > p {
+  color: #1c64f2;
+  font-size: 16px;
+  margin-top: -0.7rem;
+}
+.challenge > button {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
